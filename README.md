@@ -1,6 +1,6 @@
 # 🎵 Projeto Música — Plataforma Web para Conexão entre Músicos
 
-Este repositório contém o código-fonte do **Projeto Música**, uma aplicação web em desenvolvimento com o objetivo de criar uma plataforma profissional voltada exclusivamente para músicos.
+Este repositório contém o código-fonte do **Musique**, uma aplicação web em desenvolvimento com o objetivo de criar uma plataforma profissional voltada exclusivamente para músicos.
 
 A aplicação propõe um ambiente onde músicos possam criar perfis, apresentar suas habilidades, instrumentos e experiências, enquanto contratantes podem encontrar e se conectar com profissionais de forma simples e eficiente. A ideia segue uma lógica semelhante a redes profissionais, porém focada no universo musical.
 
