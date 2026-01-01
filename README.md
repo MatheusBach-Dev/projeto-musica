@@ -47,7 +47,7 @@ O projeto utiliza uma stack moderna, com separação clara entre backend e front
 ### 🔧 Backend
 | Tecnologia | Objetivo |
 |-----------|----------|
-| Java | Linguagem principal da aplicação |
+| Java 17 (Temurin OpenJDK) | Linguagem principal da aplicação |
 | Spring Boot | Criação de APIs REST, organização da aplicação e injeção de dependências |
 | PostgreSQL | Banco de dados relacional |
 | JPA / Hibernate | Mapeamento objeto-relacional (ORM) |
