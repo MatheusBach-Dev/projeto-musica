@@ -13,7 +13,7 @@ Este é um projeto de médio a longo prazo, com foco em aprendizado contínuo, b
 O projeto segue o padrão **MVC (Model-View-Controller)** com separação clara de responsabilidades:
 
 - **Model**: Entidades JPA e lógica de negócio
-- **View**: Interface React no frontend
+- **View**: Interface Angular no frontend
 - **Controller**: APIs REST no Spring Boot
 
 A estrutura do projeto está organizada da seguinte forma:
@@ -29,13 +29,16 @@ projeto-musica/
 │   │       └── service/    # Lógica de negócio
 │   └── src/main/resources/
 │       └── application.properties
-└── frontend/          # Interface React
+└── frontend/          # Interface Angular
     ├── src/
-    │   ├── components/    # Componentes reutilizáveis
-    │   ├── pages/         # Páginas da aplicação
-    │   ├── services/      # Comunicação com API
-    │   └── styles/        # Estilos CSS
-    └── package.json
+    │   ├── app/
+    │   │   ├── components/    # Componentes reutilizáveis
+    │   │   ├── pages/         # Páginas da aplicação
+    │   │   ├── services/      # Comunicação com API
+    │   │   └── models/        # Interfaces e modelos
+    │   ├── assets/            # Recursos estáticos
+    │   └── styles/            # Estilos globais
+    └── angular.json
 ```
 
 ---
@@ -57,11 +60,12 @@ O projeto utiliza uma stack moderna, com separação clara entre backend e front
 ### 🎨 Frontend
 | Tecnologia | Objetivo |
 |-----------|----------|
-| React | Construção da interface e componentização |
-| Vite | Ferramenta de build e servidor de desenvolvimento rápido |
-| JavaScript | Lógica da aplicação no frontend |
-| CSS / UI Libraries | Estilização e experiência do usuário |
-| Axios | Comunicação com APIs REST |
+| Angular | Framework para construção da interface e componentização |
+| TypeScript | Linguagem principal do frontend com tipagem estática |
+| RxJS | Programação reativa e gerenciamento de estado |
+| Angular CLI | Ferramenta de build e desenvolvimento |
+| HttpClient | Comunicação com APIs REST |
+| CSS / Angular Material | Estilização e componentes UI |
 
 ---
 
@@ -95,16 +99,16 @@ Execute a aplicação:
 
 O backend ficará disponível em: **http://localhost:8080**
 
-### 3️⃣ Configurar e rodar o Frontend (React + Vite)
+### 3️⃣ Configurar e rodar o Frontend (Angular)
 
 Em um novo terminal:
 ```bash
 cd frontend
 npm install
-npm run dev
+ng serve
 ```
 
-O frontend estará disponível em: **http://localhost:5173**
+O frontend estará disponível em: **http://localhost:4200**
 
 ---
 
